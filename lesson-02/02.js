@@ -7,9 +7,9 @@
 * Для успешного прохождения тестов не меняйте названия переменных!
 */
 
-let dicel = Math.floor(Math.random() * 6) + 1 // your code
+let dice1 = Math.floor(Math.random() * 6) + 1 // your code
 let dice2 = Math.floor(Math.random() * 6) + 1 // your code
-let isWinningDouble = (dicel === dice2) && (dicel > 3) // your code
+let isWinningDouble = (dice1 === dice2) && (dice1 > 3) // your code
 
 // Закомментированный блок оставляем как есть - он не выполняется
 /*
