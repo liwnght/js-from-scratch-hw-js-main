@@ -11,12 +11,13 @@ let dicel = Math.floor(Math.random() * 6) + 1 // your code
 let dice2 = Math.floor(Math.random() * 6) + 1 // your code
 let isWinningDouble = (dicel === dice2) && (dicel > 3) // your code
 
+// Закомментированный блок оставляем как есть - он не выполняется
 /*
-console.log('Первый бросок: ' + dice1)
+console.log('Первый бросок: ' + dicel)
 console.log('Второй бросок: ' + dice2)
 if (isWinningDouble) {
-  console.log('Выигрышный дубль!')
+    console.log('Выигрышный дубль!')
 } else {
-  console.log('Не выигрышный дубль.')
+    console.log('Не выигрышный дубль.')
 }
 */
