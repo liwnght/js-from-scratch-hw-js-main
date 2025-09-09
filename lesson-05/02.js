@@ -35,4 +35,8 @@ const gallery = {
   'The Scream': 'Edvard Munch',
 }
 
-function updateGallery() {}
+function updatedallery(gallery, artwork, value) {
+    // Обновляем или добавляем произведение искусства в галерею
+    gallery[artwork] = value;
+}
+console.log(gallery);
