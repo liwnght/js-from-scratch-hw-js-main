@@ -15,5 +15,14 @@ const game = {
     gold: 250,
     lumber: 100,
   },
-  addResource() {}
+  addResource(resource, amount) {
+    // Check if the resource exists in game.resources
+    if (!(resource in this.resources)) {
+      console.log("Invalid resource");
+      return;
+    }
+    
+    // Add the specified amount to the existing resource
+    this.resources[resource] += amount;
+  }
 }
