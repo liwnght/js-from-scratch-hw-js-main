@@ -30,13 +30,18 @@ console.log(gallery)
 */
 
 const gallery = {
-  'Mona Lisa': 'Leonardo da Vinci',
-  'Starry Night': 'Vincent van Gogh',
-  'The Scream': 'Edvard Munch',
+    'Mona Lisa': 'Leonardo da Vinci',
+    'Starry Night': 'Vincent van Gogh',
+    'The Scream': 'Edvard Munch',
 }
 
-function updatedallery(gallery, artwork, value) {
-    // Обновляем или добавляем произведение искусства в галерею
-    gallery[artwork] = value;
+function updatedallery(galleryObj, artworkName, newValue) {
+    galleryObj[artworkName] = newValue;
+    return galleryObj;
 }
+
+// Пример использования функции:
+updatedallery(gallery, 'Mona Lisa', 'Leonardo da Vinci, 1503-1506');
+updatedallery(gallery, 'The Persistence of Memory', 'Salvador Dali');
+
 console.log(gallery);
