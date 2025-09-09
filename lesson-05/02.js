@@ -35,13 +35,13 @@ const gallery = {
     'The Scream': 'Edvard Munch',
 }
 
-function updatedallery(galleryObj, artworkName, newValue) {
+function updateGallery(galleryObj, artworkName, newValue) {
     galleryObj[artworkName] = newValue;
     return galleryObj;
 }
 
 // Пример использования функции:
-updatedallery(gallery, 'Mona Lisa', 'Leonardo da Vinci, 1503-1506');
-updatedallery(gallery, 'The Persistence of Memory', 'Salvador Dali');
+updateGallery(gallery, 'Mona Lisa', 'Leonardo da Vinci, 1503-1506');
+updateGallery(gallery, 'The Persistence of Memory', 'Salvador Dali');
 
 console.log(gallery);
